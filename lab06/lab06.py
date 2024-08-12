@@ -186,6 +186,3 @@ def display(fruit, count):
     if count == 1:
         fruit = fruit[:-1]  # get rid of the plural s
     return '[' + str(count) + ' ' + fruit + ']'
-
-
-
